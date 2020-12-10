@@ -1,18 +1,18 @@
-import * as THREE from './three.js-dev/build/three.module.js';
+import * as THREE from 'three.js-dev/build/three.module.js';
 
-import Stats from '../three.js-dev/examples/jsm/libs/stats.module.js';
+import Stats from 'three.js-dev/examples/jsm/libs/stats.module.js';
 
-import { GUI } from '../three.js-dev/examples/jsm/libs/dat.gui.module.js';
+import { GUI } from 'three.js-dev/examples/jsm/libs/dat.gui.module.js';
 
-import { OrbitControls } from '../three.js-dev/examples/jsm/controls/OrbitControls.js';
-import { FirstPersonControls } from '../three.js-dev/examples/jsm/controls/FirstPersonControls.js';
+import { OrbitControls } from 'three.js-dev/examples/jsm/controls/OrbitControls.js';
+import { FirstPersonControls } from 'three.js-dev/examples/jsm/controls/FirstPersonControls.js';
 
-import { EffectComposer } from '../three.js-dev/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from '../three.js-dev/examples/jsm/postprocessing/RenderPass.js';
-import { ShaderPass } from '../three.js-dev/examples/jsm/postprocessing/ShaderPass.js';
+import { EffectComposer } from 'three.js-dev/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three.js-dev/examples/jsm/postprocessing/RenderPass.js';
+import { ShaderPass } from 'three.js-dev/examples/jsm/postprocessing/ShaderPass.js';
 
-import { LuminosityShader } from '../three.js-dev/examples/jsm/shaders/LuminosityShader.js';
-import { SobelOperatorShader } from '../three.js-dev/examples/jsm/shaders/SobelOperatorShader.js';
+import { LuminosityShader } from 'three.js-dev/examples/jsm/shaders/LuminosityShader.js';
+import { SobelOperatorShader } from 'three.js-dev/examples/jsm/shaders/SobelOperatorShader.js';
 
 let container, stats;
 let camera, scene, raycaster, renderer, composer, cube, mesh, mesh2, controls, rand;
