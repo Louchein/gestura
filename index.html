@@ -76,8 +76,6 @@
   </style> -->
   <script>
     window.onload = function(){
-      var rand = Math.random();
-      rand = Math.round(rand * phrases.length);
 
       var phrases = ["- blablabla blabla blablablabla...   ", 
                     "- La teoría de la ventana rota...   ",
@@ -87,7 +85,9 @@
                     "- Está diseñada desde el sur, para entenderse, a medias.   ",
                     "[...] se han convertido en niveles, niveles de ruido, de preguntas complejas,  ",
                     "[...] de pensamientos críticos, de reflexiones que parecen diarias.  "];
-      // var lengthOfName = name.length
+      
+      var rand = Math.random();
+      rand = Math.round(rand * phrases.length);
 
       document.getElementById('subtitle-h3').innerHTML = phrases[rand];
     };
