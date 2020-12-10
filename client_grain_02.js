@@ -85,7 +85,7 @@ function init() {
 
     var tween = new TWEEN.Tween( mesh2.material )
         .to( { opacity: 1 }, 15000 )
-        .delay( 1500 )
+        .delay( 15000 )
         .start();
 
     // var tween_2 = new TWEEN.Tween( mesh.material )
