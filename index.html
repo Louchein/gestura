@@ -55,7 +55,7 @@
   </div> -->
 
   <div class="subtitles">
-    <h3>- La teoría de la ventana rota...   </h3>
+    <h3 id="subtitle-h3">- La teoría de la ventana rota...   </h3>
   </div>
 
   <div class="bottom">
@@ -74,6 +74,24 @@
   <!-- <style>
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
   </style> -->
+  <script>
+    window.onload = function(){
+      var rand = Math.random();
+      rand = Math.round(rand * phrases.length);
+
+      var phrases = ["- blablabla blabla blablablabla...   ", 
+                    "- La teoría de la ventana rota...   ",
+                    "[...] y de los que quieran participar. No es fija ni única, muta, se reproduce,  ",
+                    "- se reproduce, se reconoce manchada y no busca la limpieza extrema.   ",
+                    "- Es autónoma y codependiente.   ",
+                    "- Está diseñada desde el sur, para entenderse, a medias.   ",
+                    "[...] se han convertido en niveles, niveles de ruido, de preguntas complejas,  ",
+                    "[...] de pensamientos críticos, de reflexiones que parecen diarias.  "];
+      // var lengthOfName = name.length
+
+      document.getElementById('subtitle-h3').innerHTML = phrases[rand];
+    };
+  </script>
 
   <script type="module" src="client_grain_02.js"></script>
 
