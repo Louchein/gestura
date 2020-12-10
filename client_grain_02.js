@@ -1,4 +1,5 @@
-import * as THREE from 'https://threejs.org/build/three.module.js';
+// import * as THREE from 'https://threejs.org/build/three.module.js';
+import * as THREE from '../gestura/three.js-dev/build/three.module.js';
 
 import Stats from '../gestura/three.js-dev/examples/jsm/libs/stats.module.js';
 
